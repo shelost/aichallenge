@@ -26,7 +26,7 @@ function Abacus(){
 
             if (cell == 1){
 
-                if (j == 0){
+                if (i == 0){
                     result += 10**(grid[0].length-j-1)*5
                 }else{
                     result += 10**(grid[0].length-j-1)
